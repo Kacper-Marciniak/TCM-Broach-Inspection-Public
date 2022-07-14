@@ -1,0 +1,12 @@
+__pycache__/
+.neptune/
+EXE_output/
+*.pkl
+*.xlsx
+*.pptx
+*.json
+*.pth
+*.exe
+*.log
+temp.jpg
+output.jpg
