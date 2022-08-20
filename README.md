@@ -66,7 +66,7 @@ Neptune [click here](https://app.neptune.ai/kacper-marciniak/)
 <div align=center><table>
   <tr>
     <th><a href="https://pwr.edu.pl/">Wrocław University of Science and Technology</a></th>
-    <th><a href="https://mvlab.pl/">Machine Vision Laboratory]</a></th>
+    <th><a href="https://mvlab.pl/">Machine Vision Laboratory</a></th>
     <th><a href="https://www.tcm-international.com/">TCM International</a></th>
   </tr>
   <tr>
