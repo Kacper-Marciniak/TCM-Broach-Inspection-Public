@@ -1,4 +1,4 @@
-![plot](ReadmeImages/header.png)
+<p align="center"><img src="ReadmeImages/header.png" width="100%"></p>
 
 # TCM Broach Inspector
 
@@ -10,15 +10,7 @@ Multifunctional system for the automatic inspection of flat broaching tools, fea
 * TKinter based host application
 * SQL database for storing the results of the performed scans
 
-![plot](ReadmeImages/scanner.png)
-
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Features](#features)
-* [Project Status](#project-status)
-* [Experiments tracking](#experiments-tracking)
-
+<p align="center"><img src="ReadmeImages/scanner.png"></p>
 
 ## General Information
 
@@ -49,22 +41,37 @@ Multifunctional system for the automatic inspection of flat broaching tools, fea
 ## Features
 
 **Dash application used for output visualization.**
->![plot](ReadmeImages/dash_app.png)
+<p align="center"><img src="ReadmeImages/dash_app.png"></p>
 
 **TKinter based host application with console output**
->![plot](ReadmeImages/dash_host.png)
+<p align="center"><img src="ReadmeImages/dash_host.png"></p>
 
 **MLOPs platform - Neptune AI for experiments tracking pourposes.**
->![plot](ReadmeImages/neptune.png)
+<p align="center"><img src="ReadmeImages/neptune.png"></p>
 
 **Automatic labels in .json lableme compatible format, generated using detectron2 model inference.**
->![plot](ReadmeImages/labelme.png)
+<p align="center"><img src="ReadmeImages/labelme.png"></p>
 
 
 ## Project Status
 
 Project is: _in progress_ 
 
-## Experiments tracking
+## Experiments trackingt
 
 Neptune [click here](https://app.neptune.ai/kacper-marciniak/)
+
+## Organisations involved in the project development
+
+<div align=center><table>
+  <tr>
+    <th><a href="https://pwr.edu.pl/">Wrocław University of Science and Technology</a></th>
+    <th><a href="https://mvlab.pl/">Machine Vision Laboratory]</a></th>
+    <th><a href="https://www.tcm-international.com/">TCM International</a></th>
+  </tr>
+  <tr>
+    <td width=33%><p align="center"><img src="ReadmeImages/pwr-logo.png" height="100"></p></td>
+    <td width=33%><p align="center"><img src="ReadmeImages/mv-logo.png" height="100"></p></td>
+    <td width=33%><p align="center"><img src="ReadmeImages/TCM-logo-text.png" height="75"></p></td>
+  </tr>
+</table></div>
