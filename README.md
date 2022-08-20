@@ -2,12 +2,13 @@
 
 # TCM Broach Inspector
 
-Multifunctional system for automatic visual inspection of broach teeth, featuring:
-* 2-stage AI based image processing system (ROI-extraction and failure segmentation)
-* 3D analysis system
-* Module for teeth sharpening strategy optimization
-* Dash based interactive application
+Multifunctional system for the automatic inspection of flat broaching tools, featuring:
+* 2-stage AI-based image processing system (detection of tooth application surface and failure segmentation)
+* 3D analysis system with laser profilometer
+* Module for cost optimisation of the tool reconditioning process
+* Dash based interactive application to view results, select the optimum regeneration method and generate a tool scan report
 * TKinter based host application
+* SQL database for storing the results of the performed scans
 
 ![plot](ReadmeImages/scanner.png)
 
@@ -21,16 +22,17 @@ Multifunctional system for automatic visual inspection of broach teeth, featurin
 
 ## General Information
 
-- Contains jupyter notebooks for models development purposes
-- ResNET architecture
-- Failures annotations in .json format, compatible with LabelMe
-- Supervized learning with custom datasets
-- Semi-automatic dataset creation
-- Custom evaluation methods with modified F1-score
-- Models comparing and results tracking with Neptune.AI
-- Results displayed in dash-based interactive application
-- Module for teeth sharpening strategy optimization
+- Jupiter notebooks with scripts for training and evaluation of AI models 
+- Based on the ResNET architecture
+- Annotations with detected artefacts saved in .json format, compatible with LabelMe software
+- Supervised learning using customised datasets
+- System for semi-automatic creation of datasets
+- Proprietary evaluation methods with modified F1 metric
+- Model comparison and performance tracking using Neptune.AI
+- Results displayed in an interactive DASH-based application
+- Cost optimisation module for tool regeneration strategy
 - Input and output data stored in SQL database
+- System for user authorisation, user account management and supervision of access to data and selected functionalities
 
 ## Technologies Used
 
