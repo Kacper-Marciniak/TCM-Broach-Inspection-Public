@@ -12,7 +12,7 @@ Multifunctional system for the automatic inspection of flat broaching tools, fea
 
 <p align="center"><img src="ReadmeImages/scanner.png"></p>
 
-## General Information
+## General information
 
 - Jupiter notebooks with scripts for training and evaluation of AI models 
 - Based on the ResNET architecture
@@ -26,7 +26,7 @@ Multifunctional system for the automatic inspection of flat broaching tools, fea
 - Input and output data stored in SQL database
 - System for user authorisation, user account management and supervision of access to data and selected functionalities
 
-## Technologies Used
+## Technologies used
 
 - Python 3.7.0
 - Detectron2 v0.6
@@ -57,7 +57,7 @@ Multifunctional system for the automatic inspection of flat broaching tools, fea
 
 Project is: _in progress_ 
 
-## Experiments trackingt
+## Experiments tracking
 
 Neptune [click here](https://app.neptune.ai/kacper-marciniak/)
 
@@ -75,3 +75,4 @@ Neptune [click here](https://app.neptune.ai/kacper-marciniak/)
     <td width=33%><p align="center"><img src="ReadmeImages/TCM-logo-text.png" height="75"></p></td>
   </tr>
 </table></div>
+
