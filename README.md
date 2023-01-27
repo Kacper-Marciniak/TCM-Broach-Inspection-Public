@@ -33,7 +33,7 @@ Multifunctional system for the automatic inspection of flat broaching tools, fea
 
 ## Features
 
-# Visualization application
+### Visualization application
 
 **Broach wear map.**
 <p align="center"><img src="ReadmeImages/broach_map.png"></p>
@@ -46,6 +46,8 @@ Multifunctional system for the automatic inspection of flat broaching tools, fea
 
 **TKinter based host application with console output**
 <p align="center"><img src="ReadmeImages/dash_host.png"></p>
+
+### ML solutions
 
 **MLOPs platform - Neptune AI for experiments tracking pourposes.**
 <p align="center"><img src="ReadmeImages/neptune.png"></p>
@@ -72,4 +74,3 @@ Project is: _in progress_
     <td width=33%><p align="center"><img src="ReadmeImages/TCM-logo-text.png" height="75"></p></td>
   </tr>
 </table></div>
-
