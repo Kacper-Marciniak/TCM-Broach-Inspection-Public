@@ -2,46 +2,47 @@
 
 # TCM Broach Inspector
 
+## General information
+
 Multifunctional system for the automatic inspection of flat broaching tools, featuring:
-* 2-stage AI-based image processing system (detection of tooth application surface and failure segmentation)
-* 3D analysis system with laser profilometer
-* Module for cost optimisation of the tool reconditioning process
-* Dash based interactive application to view results, select the optimum regeneration method and generate a tool scan report
-* TKinter based host application
-* SQL database for storing the results of the performed scans
+* **2-stage AI-based image processing system** (detection of tooth application surface followed by failure segmentation)
+* **3D analysis system** with laser profilometer (measurement of tooth height and detection of surface defects)
+* **Module for cost optimisation** of the tool reconditioning process (selection of a regeneration method that maximizes overall profit over the tool's life cycle)
+* Dash based **interactive application** to view results, select the optimum regeneration method and generate a tool scan report
+* **SQL database** for storing the results of the performed scans
 
 <p align="center"><img src="ReadmeImages/scanner.png"></p>
 
-## General information
+## Machine learning solutions
 
+- **Detectron2 models** based on the ResNET architecture
+- Supervised learning using **custom datasets**
+- Annotations with artifacts saved in .json format, compatible with **LabelMe software**
+- System for **semi-automatic datasets creation**
 - Jupiter notebooks with scripts for training and evaluation of AI models 
-- Based on the ResNET architecture
-- Annotations with detected artefacts saved in .json format, compatible with LabelMe software
-- Supervised learning using customised datasets
-- System for semi-automatic creation of datasets
 - Proprietary evaluation methods with modified F1 metric
-- Model comparison and performance tracking using Neptune.AI
-- Results displayed in an interactive DASH-based application
-- Cost optimisation module for tool regeneration strategy
-- Input and output data stored in SQL database
-- System for user authorisation, user account management and supervision of access to data and selected functionalities
+- Model comparison and performance tracking using **Neptune.AI**
+- System for **AI errors reporting** (MLOps)
 
 ## Technologies used
 
-- Python 3.7.0
+- Python 3.10
 - Detectron2 v0.6
-- PyTorch 1.11.0
-- Pandas 1.3.5
-- OpenCv 4.5.1
-- NumPy 1.21.3
-- Dash 2.1.0
-- Json 2.0.9
-- NVIDIA CUDA 11.3
+- PyTorch 1.12
+- NVIDIA CUDA 11.7
 
 ## Features
 
-**Dash application used for output visualization.**
-<p align="center"><img src="ReadmeImages/dash_app.png"></p>
+# Visualization application
+
+**Broach wear map.**
+<p align="center"><img src="ReadmeImages/broach_map.png"></p>
+
+**Wear analysis for broach rows.**
+<p align="center"><img src="ReadmeImages/broach_barplots.png"></p>
+
+**Preview of apposition surface and detected artifacts.**
+<p align="center"><img src="ReadmeImages/broach_toothpreview.png"></p>
 
 **TKinter based host application with console output**
 <p align="center"><img src="ReadmeImages/dash_host.png"></p>
