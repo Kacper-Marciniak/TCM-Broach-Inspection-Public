@@ -58,10 +58,6 @@ Multifunctional system for the automatic inspection of flat broaching tools, fea
 
 Project is: _in progress_ 
 
-## Experiments tracking
-
-Neptune [click here](https://app.neptune.ai/kacper-marciniak/)
-
 ## Organisations involved in the project development
 
 <div align=center><table>
