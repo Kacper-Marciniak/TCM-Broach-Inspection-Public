@@ -55,15 +55,6 @@ Multifunctional system for the automatic inspection of flat broaching tools, fea
 **Automatic labels in .json lableme compatible format, generated using detectron2 model inference.**
 <p align="center"><img src="ReadmeImages/labelme.png"></p>
 
-
-## Project Status
-
-Project is: _in progress_ 
-
-## Experiments tracking
-
-Neptune [click here](https://app.neptune.ai/kacper-marciniak/)
-
 ## Organisations involved in the project development
 
 <div align=center><table>
@@ -78,4 +69,3 @@ Neptune [click here](https://app.neptune.ai/kacper-marciniak/)
     <td width=33%><p align="center"><img src="ReadmeImages/TCM-logo-text.png" height="75"></p></td>
   </tr>
 </table></div>
-
