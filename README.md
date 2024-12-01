@@ -2,62 +2,78 @@
 
 # TCM Broach Inspector
 
-## General information
+## Overview
 
-Multifunctional system for the automatic inspection of flat broaching tools, featuring:
-* **2-stage AI-based image processing system** (detection of tooth application surface followed by failure segmentation)
-* **3D analysis system** with laser profilometer (measurement of tooth height and detection of surface defects)
-* **Module for cost optimisation** of the tool reconditioning process (selection of a regeneration method that maximizes overall profit over the tool's life cycle)
-* Dash based **interactive application** to view results, select the optimum regeneration method and generate a tool scan report
-* **SQL database** for storing the results of the performed scans
+The **TCM Broach Inspector** is an advanced, multifunctional system designed for the automatic inspection of flat broaching tools. It combines advanced ML and 3D analysis technologies to enhance efficiency, precision, and cost-effectiveness in tool maintenance processes.
+
+### Key Features:
+
+- **2-stage ML-driven image processing**:
+  - Detection of tooth rake faces.
+  - Segmentation of surface defects and failures.
+- **3D analysis system**:
+  - Laser profilometer for measuring tooth height and detecting surface anomalies.
+- **Cost optimization module**:
+  - Suggests optimal reconditioning methods to maximize lifecycle profitability.
+- **Interactive Dash application**:
+  - Enables result visualization, selection of reconditioning strategies, and generation of detailed tool scan reports.
+- **SQL database**:
+  - Secure storage for scan results and analysis data.
 
 <p align="center"><img src="ReadmeImages/scanner.png"></p>
 
-## Machine learning solutions
+---
 
-- **Detectron2 models** based on the ResNET architecture
-- Supervised learning using **custom datasets**
-- Annotations with artifacts saved in .json format, compatible with **LabelMe software**
-- System for **semi-automatic datasets creation**
-- Jupiter notebooks with scripts for training and evaluation of AI models 
-- Proprietary evaluation methods with modified F1 metric
-- Model comparison and performance tracking using **Neptune.AI**
-- System for **AI errors reporting** (MLOps)
+## Machine Learning Solutions
 
-## Technologies used
+- **Detectron2 models** powered by ResNet architecture.
+- Supervised learning with **custom-built datasets**.
+- Seamless annotation compatibility with **LabelMe software**.
+- **Semi-automatic dataset creation** system.
+- Proprietary evaluation methods, including a customized F1 metric.
+- Model comparison and performance tracking via **Neptune.AI**.
+- **MLOps support** with ML error reporting and in-app relabeling.
 
-- Python 3.10
-- Detectron2 v0.6
-- PyTorch 1.12
-- NVIDIA CUDA 11.7
+---
 
-## Features
+## Visualization and Reporting
 
-### Visualization application
+The project includes a powerful visualization application to analyze and interpret inspection results effectively:
 
-**Broach wear map.**
+### Examples:
+
+**Broach Wear Map**  
+Detailed visualization of tool wear across the surface.  
 <p align="center"><img src="ReadmeImages/broach_map.png"></p>
 
-**Wear analysis for broach rows.**
+**Wear Analysis by Rows**  
+Graphical representation of wear for each row.  
 <p align="center"><img src="ReadmeImages/broach_barplots.png"></p>
 
-**Preview of apposition surface and detected artifacts.**
+**Artifact and Surface Inspection**  
+Interactive preview of apposition surfaces and identified defects.  
 <p align="center"><img src="ReadmeImages/broach_toothpreview.png"></p>
 
-**TKinter based host application with console output**
-<p align="center"><img src="ReadmeImages/dash_host.png"></p>
+---
 
-### ML solutions
+## Video Demonstration
 
-**MLOPs platform - Neptune AI for experiments tracking pourposes.**
-<p align="center"><img src="ReadmeImages/neptune.png"></p>
+Learn more about the **Broach Inspector** by watching our demonstration video on YouTube.
 
-**Automatic labels in .json lableme compatible format, generated using detectron2 model inference.**
-<p align="center"><img src="ReadmeImages/labelme.png"></p>
+<p align="center">
+  <a href="https://youtu.be/-LDkVgyD8Zc" target="_blank">
+    <img src="ReadmeImages/youtube-thumbnail.png" alt="TCM Broach Inspector Video" width="70%">
+  </a>
+</p>
 
-## Organisations involved in the project development
+---
 
-<div align=center><table>
+## Collaborators
+
+This project is a joint effort of industry leaders and academic institutions, reflecting a commitment to innovation and excellence.
+
+<div align=center>
+<table>
   <tr>
     <th><a href="https://pwr.edu.pl/">Wrocław University of Science and Technology</a></th>
     <th><a href="https://mvlab.pl/">Machine Vision Laboratory</a></th>
@@ -68,4 +84,5 @@ Multifunctional system for the automatic inspection of flat broaching tools, fea
     <td width=33%><p align="center"><img src="ReadmeImages/mv-logo.png" height="100"></p></td>
     <td width=33%><p align="center"><img src="ReadmeImages/TCM-logo-text.png" height="75"></p></td>
   </tr>
-</table></div>
+</table>
+</div>
