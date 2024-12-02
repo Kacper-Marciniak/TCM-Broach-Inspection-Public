@@ -6,6 +6,8 @@
 
 The **TCM Broach Inspector** is an advanced, multifunctional system designed for the automatic inspection of flat broaching tools. It combines advanced ML and 3D analysis technologies to enhance efficiency, precision, and cost-effectiveness in tool maintenance processes.
 
+<p align="center"><img src="ReadmeImages/broach_system_overview.png" width=75%></p>
+
 ### Key Features:
 
 - **2-stage ML-driven image processing**:
@@ -19,8 +21,6 @@ The **TCM Broach Inspector** is an advanced, multifunctional system designed for
   - Enables result visualization, selection of reconditioning strategies, and generation of detailed tool scan reports.
 - **SQL database**:
   - Secure storage for scan results and analysis data.
-
-<p align="center"><img src="ReadmeImages/scanner.png"></p>
 
 ---
 
@@ -62,11 +62,13 @@ Learn more about the **Broach Inspector** by watching our demonstration video on
 
 <p align="center">
   <a href="https://youtu.be/-LDkVgyD8Zc" target="_blank">
-    <img src="ReadmeImages/youtube-thumbnail.png" alt="TCM Broach Inspector Video" width="70%">
+    <img src="ReadmeImages/youtube-thumbnail.png" alt="TCM Broach Inspector Video" width="50%">
   </a>
 </p>
 
 ---
+
+<p align="center"><img src="ReadmeImages/scanner.png"></p>
 
 ## Collaborators
 
